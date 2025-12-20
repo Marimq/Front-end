@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # booble-kiss
 
 Site estático com `index.html`, `style.css` e a pasta `imagem/`.
@@ -29,3 +30,6 @@ git push -u origin main
 ```
 
 Se quiser, posso executar esses comandos para você depois que o Git e o `gh` estiverem instalados e autenticados no seu sistema. 😊
+=======
+# Front-end
+>>>>>>> 9f9caabbeeefa1595b13be4fa77c01eaf077f2de
