@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Essence</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="nav_logo">
+                <i class="fa-solid fa-champagne-glasses"></i>
+                <span>Essence</span>
+            </div>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliação</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Pede Aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+                <ul id="mobile_nav_list">
+                    <li class="nav-item">
+                        <a href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials">Avaliação</a>
+                    </li>
+                </ul>
+
+                <button class="btn-default">
+                    Pede Aqui
+                </button>
+            </div>
+
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="pasta"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Mais que uma refeição, uma
+                    <span>celebração</span>
+                </h1>
+
+                <p class="description">
+                    Uma cozinha italiana moderna,pensada nos <br>
+                    sabores nos detalhes e no momento.
+                </p>
+
+                <div id="cta_button">
+                    <a href="#" class="btn-default">
+                        ver cardápio
+                    </a>
+
+                    <a href="tel:+55555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (51) 99208-2740
+                    </a>
+                </div>
+
+                <div class="social-media-button">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="banner">
+                <img src="src/image/heroo.svg" width="800" alt="">
+            </div>
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/image/dish.svg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Spaghetti al Pomodoro
+                    </h3>
+
+                    <span class="dish-description">
+                        Espaguete servido com molho de tomate fresco azeite de oliva alho manjericão e sabores italianos leves 
+                        
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/image/dish2.svg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        spaghetti con polpette
+                    </h3>
+
+                    <span class="dish-description">
+                        Espaguete servido com molho de tomate clássico e almôndegas de carne suculentas tradicionais italianas artesanais
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$22,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/image/dish3.svg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Carbonara 
+                    </h3>
+
+                    <span class="dish-description">
+                        Conhecido pela cremosidade sem creme de leite feito com ovos queijo gordura suína pimenta-do-reino tradicional  
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$22,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/image/dish4.svg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Spaghetti al Pesto Genovese
+                    </h3>
+
+                    <span class="dish-description">
+                        Espaguete servido com molho cremoso de manjericão alho azeite extra virgem parmesão pecorino italiano fresco
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$27,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="testimonials">
+            <img src="src/image/chef.svg" id="testimonials_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+
+                <div id="feedback">
+                    <div class="feedback">
+                        <img src="src/image/avatar.svg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Letícia Alvez
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Comida impecável, ambiente elegante e atendimento atencioso. Uma experiência italiana completa e muito bem executada.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/image/avatar (2).svg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Juan Luccas
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Pratos muito saborosos e bem apresentados. Ambiente agradável e organizado, voltaria com certeza.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais Avaliação
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/image/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2026 Mariana Matos
+            </span>
+
+            <div class="social-media-button">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>

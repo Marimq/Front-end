@@ -1,0 +1,106 @@
+#home{
+    display: flex;
+    min-height: calc(100vh - 91px);
+    position: relative;
+}
+
+#cta{
+   
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .title{
+    font-size: 4rem;
+    color: #1d1d1d;
+}
+
+#cta .title span{
+    color:#a74545;
+}
+
+#cta .description{
+    font-size: 1.2rem;
+}
+
+#cta_button{
+    display: flex;
+    gap: 24px;
+}
+
+#cta_button a{
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+#phone_button{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+}
+
+#phone_button button{
+    box-shadow: none;
+}
+
+#banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    z-index: 2;
+}
+
+#banner img{
+   margin-left: 13%;
+   
+}
+
+.pasta{
+    background-color: #c63c3c;
+    width: 50%;
+    height: 95%;
+    position: absolute;
+    border-radius: 40% 35% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    
+    
+}  
+
+@media screen and (max-width: 1170px) {
+    #home{
+        flex-direction: column;
+        padding-top: 20px;
+        min-height: 100%;
+    }
+
+    #home .pasta,
+    #banner img,
+    #banner{
+        display: none;
+    }
+
+    #cta{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+    #phone_button button{
+        display: none;
+    }
+}
