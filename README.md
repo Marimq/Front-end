@@ -6,5 +6,5 @@ Projeto criado para o estudo de HTML e CSS.
 🔗 https://booblekiss.netlify.app/
 
 ESSENCE - Landing page de um restaurante italiano moderno e sofisticado, desenvolvida com foco em design, organização de código e responsividade.
-É um projeto criado para o estudo de HTML, CSS e JavaScript para ver como ficou 
+É um projeto criado para o estudo de HTML, CSS e JavaScript. 
 🔗 https://essenceitaliano.netlify.app/
