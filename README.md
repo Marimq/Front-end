@@ -1,5 +1,4 @@
-*Front-end Studies*
-Esta pasta contém projetos e exercícios desenvolvidos com foco em aprendizado e prática de front-end.
+*Front-end*
 
 Bobble Kiss
 Landing page voltada para o segmento de moda, desenvolvida com foco em apresentação visual e experiência do usuário.  
